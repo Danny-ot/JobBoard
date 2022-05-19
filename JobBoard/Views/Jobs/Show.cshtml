@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>JobCon</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style type="text/css">
+    </style>
+</head>
+
+<body class="bg-secondary text-light text-center">
+    <h1>@Model.Company</h1>
+    <div class="mt-4 container">
+                <p class="mt-4 h5"><span class = "d-block text-dark h4">Job Title/Position:</span> @Model.Title</p>
+                <p class="mt-4 h5"><span class = "d-block text-dark h4">CompanyName:</span> @Model.Company</p>
+                <p class="mt-4 h5"><span class = "d-block text-dark h4">Description:</span> @Model.Description</p>
+                <p class="mt-4 h5"><span class = "d-block text-dark h4">Salary:</span> $@Model.Salary</p>
+                <p class="mt-4 h5"><span class = "d-block text-dark h4">CompanyAddress:</span> @Model.Address</p>
+                <p class="mt-4 h5"><span class = "d-block text-dark h4">ContactInfo:</span> @Model.ContactInfo</p>
+        <p><a href="/jobs" class="h6 btn btn-info mt-3">Go back To Job Offers</a></p>
+    </div>
+</body>
+
+</html>
